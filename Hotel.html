@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel</title>
+</head>
+<body style="text-align:center;">
+
+     <!-- <center>
+        <h5>Hotel Booking</h5>
+        <form action="">
+            <table>
+                <p>
+                <tr>
+                <td><label for="name">Customer Name:</label></td>
+                <td> <input type="text" name="fname">
+                </td>
+                </tr> </form>
+            </p>
+            </table>
+            <label for="number">customer No:</label><br>
+            <input type="text" name="phone number">
+            <label for="text">Email:</label><br>
+<P>Room type:
+            <input type="radio" name="Room type"/>AC
+            <label for="AC"></label>
+            
+            <input type="radio" name="Room type"/>Non-Ac
+            <label for="Room type"></label><br>
+</td>
+  
+    <label for="food"> Food type:</label>
+    <input type="checkbox" name="food"/>South indian
+    <input type="checkbox" name="food"/>north indian
+    <input type="checkbox" name="food"/>chinese
+    <input type="checkbox" name="food"/>western <br>
+
+   <select name="Comment" id="comment"> 
+
+    <option value="Comment">Comment</option>
+    <br/> 
+      <br>
+
+    <textarea name="comments">comments</textarea></br>
+ <input type="submit" value="reset">
+ <input type="submit" value="book">
+
+     </center> -->
+
+    <h1>Hotel Booking</h1><br>
+    <div>
+        <label for="name">Customer Name:</label>
+        <input type="text" id="name" name="Myname">
+    </div><br>
+    <div>
+        <label for="Number">Contact No:</label>
+        <input type="number" id="Number" name="Mynumber">
+    </div> <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Myemail">
+    </div> <br>
+         <span>Room Type:</span>
+         <label for="AC">Ac:</label>
+        <input type="radio" name="roomtype" id="AC">
+        <label for="Non-AC">Non-Ac:</label>
+         <input type="radio" name="roomtype" id="Non-ac"> 
+         <!-- here name attribute value  must be same = roomtype
+         id and for attribute value also same -->
+     <br>
+     <br>
+     <span>Food type:</span> 
+    <input type="checkbox" name="foodtypes" id="indianfood">
+    <label for="indianfood">South Indian</label>
+    <input type="checkbox" name="foodtypes" id="indianfood">
+    <label for="indianfood">North Indian</label>
+    <input type="checkbox" name="foodtypes" id="indianfood">
+    <label for="indianfood">East Indian</label> <br>
+    <br>
+     <label for="date">Date:</label>
+    <input type="date" name="todaydate" id="date">
+    <br>
+    <br>
+     <textarea name="mytext"></textarea>
+     <br>
+     <div>
+         <label for="Hotel">Hotel</label>
+         <select name="rooms" id="rooms">
+             <option value="sc">singleroom</option>
+             <option value="dc">doubleroom</option>
+         </select>
+     </div>
+     <br>
+     <br>
+     <div>
+          <input type="submit" id="formsubmit">
+         <input type="reset" id="formrest">
+     </div>
+     <!-- after submitting form data will be moved to action-- php or in database -->
+     
+     
+</body>
+</html>
